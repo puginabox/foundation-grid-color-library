@@ -59,12 +59,11 @@ module.exports = function(grunt) {
         grunt.loadNpmTasks('grunt-contrib-uglify');
         grunt.loadNpmTasks('grunt-contrib-watch');
         grunt.loadNpmTasks('grunt-contrib-compass');
-        grunt.loadNpmTasks('grunt-contrib-copy');
         grunt.loadNpmTasks('grunt-contrib-cssmin');
         grunt.loadNpmTasks('express');
 
         grunt.loadTasks("tasks");
 
         //---------------------------------------- initial task (watch) when grunt starts ------------------|     
-        grunt.registerTask('default', ['copy', 'server', 'watch']);
+        grunt.registerTask('default', ['server', 'watch']);
     } //exports
