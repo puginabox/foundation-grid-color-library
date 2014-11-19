@@ -1,0 +1,35 @@
+{
+    "name": "grunt-setup",
+    "version": "0.0.0",
+    "description": "Grunt Setup",
+    "main": "main.js",
+    "scripts": {
+        "test": "testing"
+    },
+    "repository": {
+        "type": "git",
+        "url": "puginabox@github.com/frontend-setup.git"
+    },
+    "keywords": [
+        "git",
+        "grunt",
+        "npm",
+        "bower"
+    ],
+    "author": "Griffin Byron",
+    "license": "MIT",
+    "devDependencies": {
+        "bower": "*",
+        "grunt": "*",
+        "grunt-contrib-compass": "*",
+        "grunt-contrib-copy": "*",
+        "grunt-contrib-cssmin": "*",
+        "grunt-contrib-jshint": "*",
+        "grunt-contrib-uglify": "*",
+        "grunt-contrib-watch": "*",
+        "matchdep": "*"
+    },
+    "dependencies": {
+        "express": "*"
+    }
+}
